@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.nav-container {
+    background-color: #1F2937;
+}
+
+.random-info-container {
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+
+    margin: auto;
+    width: 75%;
+
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+
+.logo {
+    text-align: left;
+    text-indent: 50px;
+    margin: auto;
+    display: flex;
+
+}
+
+.link {
+    margin-right: 25%;
+
+}
+
+.link > a {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+
+}
+
+.p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-family: Arial;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: inline-block;
+    padding-bottom: 2%;
+
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.sign-up-container {
+    width: 50%;
+    word-wrap: normal;
+
+
+}
+
+.header-container {
+    width: 50%;
+
+}
+
+.flex-container > .sign-up-container, .header-container {
+    margin: auto;
+    padding: 100px;
+}
+
+.waterfall-image {
+    width: 50%;
+    height: 50%;
+}
+
+.flex-container-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+
+
+}
+
+.random-info-container > .flex-container-info > div > img {
+    width: 50%;
+    height: 50%;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+}
+
+.flex-container-sign-up {
+    background-color: white;
+    margin: auto;
+    padding: 2%;
+}
+
+.flex-container-action {
+    background-color: #3882F6;
+    margin: auto;
+    color: white;
+    width: 75%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+
+
+}
+
+.action-time-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 25px;
+    border-color: white;
+
+
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > div {
+    padding: 2%;
+}
